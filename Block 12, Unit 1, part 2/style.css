@@ -1,0 +1,476 @@
+* {
+	margin: 0;					/* remove the default margins*/
+    padding: 0;					/* remove the default padding*/
+    box-sizing: border-box;		/* Padding and border are included in the width and height*/
+}
+
+.top-header {
+    width: 100%;					/* total width of the top header container*/
+    height: 150px;					/* height of the top-header*/
+    background-color: lightblue;	/* top header background color*/
+}
+
+.hero-image {
+	height: 350px;
+    padding-left: 10px;             /* adds left side spacing to the hero image*/
+}
+    
+.nav-menu {
+	padding-top: 20px;				/* add some spacing between the nav contents and top of header*/
+    text-align: right;				/* move all nav links to the right side of webpage*/
+}
+
+.nav-menu a {
+	font-size: 30px;				/* change the font size to the content in top header*/
+    padding: 1.25rem;					/* add some spacing between the content in the top header*/
+    text-decoration: none;			/* remove the default a tags underline*/
+}
+
+h1 {
+	text-align: center;				/* center my h1 heading*/
+	font-size: 3rem;	            /* change my h1 heading font size*/
+    padding-top: 1.25rem;              /* adds more spacing on top of heading*/
+    padding-left: 40px;             /* adds more spacing to the left of heading*/
+}
+
+p, .content p {
+	margin-top: 15px;									/* adds more spacing between the h1 heading and paragraph*/
+    text-align: center;				    				/* center the entire paragraph*/
+    font-family: 'Montserrat', sans-serif;				/* changed the paragraph font type*/
+    letter-spacing: 1.5px;							/* adds more spacing between the lines of text*/
+    padding-left: 40px;
+}
+
+.cta {
+	margin-bottom: 30px;				/* adds more spacing between the call-to-action statement and the social icons*/
+}
+
+.fa-facebook {
+    color: rgb(64 102 177);           /* adding blue color to Facebook icon*/
+    font-size: 22px;                    /* increasing the icon size for better visibility*/
+}
+
+.fa-instagram {
+    color: rgb(234 68 144);           /* adding a bold pink color to Instagram icon*/
+    font-size: 22px;                    /* increasing the icon size for better visibility*/
+} 
+
+.fa-twitter {
+    color: rgb(2 158 245);              /* adding a sky blue to Twitter icon*/
+    font-size: 22px;                      /* increasing the icon size for better visibility*/
+}
+
+.nav-menu-about {
+	padding-top: 10px;				/* add some spacing between the nav contents and top of header*/
+    text-align: right;				/* move all nav links to the right side of webpage*/
+}
+
+.nav-menu-about a {
+	font-size: 30px;				/* change the font size to the content in top header*/
+    padding: 1.25rem;					/* add some spacing between the content in the top header*/
+    text-decoration: none;			/* remove the default a tags underline*/
+}
+
+.about-heading {
+    padding-top: 30px;                          /* adds spacing between website top margin and header*/
+    text-align: left;				            /* center my h1 heading*/
+	font-size: 3rem;				            /* change my h1 heading font size*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-container {
+    display: flex;                          /* turns a container into a flexbox layout */
+    justify-content: space-between;         /* adds equal spacing between the paragraphs and image*/
+    align-items: flex-start;                /* aligns items at the start of the container */
+    gap: 2.5rem;                              /* space between paragraph and image */
+    padding: 10px;                          /* adds spacing around the entire container*/
+}
+  
+.text-content p {
+    flex: 1;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;                       /* adds spacing between the sentenses */
+    color: black;
+}
+  
+.pie-img img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cta-about {
+	margin-top: 30px;                      /* adds spcaing to the top of the cta*/
+    margin-bottom: 50px;                  /* adds spacing to the bottom of the cta*/
+    margin-left: 10px;                      /* adds spacing to the left side of he cta*/
+    text-align: left;
+}
+
+.pfolio-heading {
+    padding-top: 30px;                          /* adds spacing between website top margin and header*/
+    text-align: left;				            /* center my h1 heading*/
+	font-size: 3rem;				            /* change my h1 heading font size*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signature {
+  font-family: 'Dancing Script', cursive;           
+  font-size: 24px;
+  font-style: italic;
+  text-align: right;
+  margin-top: 1rem;                 /* adds more spacing between the last paragraph and the signature*/
+  margin-right: 8px;                 /* moves the my signature to the right side*/
+  margin-bottom: 10px;               /* adds spacing between by signature and icons*/
+}
+  
+.layout {
+    display: flex;                  /* enables Flexbox layout */
+}
+
+.left-column {
+    display: flex;                  /* turns this into a flex container */
+    align-items: flex-start;        /* aligns items to the top of the container */
+    gap: 30px;                      /* spacing between image and content */
+    padding: 40px;                  /* adds padding inside the container on all sides  */
+}
+  
+.hero-image2 {
+    height: 300px;               /* customize the size of the hero image */
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 30px;                       /* adds spacing between the heading and header*/
+}
+  
+.right-column {
+    flex: 1;                        /* allows columns to shrink, and grow as needed */
+    display: flex;                  /* turns this element into a flex container */
+    flex-direction: column;         /* Stacks child elements vertically */
+    gap: 20px;                      /* adds space between all content elements */
+}
+
+.contact-form form {
+    display: flex;                  /* turns this element into a flex container */ 
+    flex-direction: column;         /* Arranges child elements vertically */
+    gap: 10px;                       /* Adds spacing between child elements  */
+}
+  
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    padding: 10px;                    /* Adds inner spacing inside each form element */
+    margin-bottom: 10px;              /* Adds spacing below each form element  */
+    font-size: 12px;
+    width: 30%;                     /* customize the size of the input fields width */
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+    border-color: #007BFF;              /* added new border color for hover */
+    background-color: #f0f8ff;          /* added new background color for hover */
+    transition: 0.3s ease;                  /* smooth transition */
+}
+  
+input[type="submit"] {              /* targets this element by using attribute selector */
+    width: fit-content;
+    background-color: lightgray;        /* changes the background color of the button */
+    border: black;                   /* adds a black color border */
+    cursor: pointer;                /* Changes the cursor to a hand icon on hover */
+    padding: 10px 20px;             /* Adds 10px top/bottom and 20px left/right padding */
+}
+
+input[type="submit"]:hover {
+    background-color: #007BFF;             /* added new background color for hover */
+    color: white;                          /* added new text color for hover */
+    cursor: pointer;                         /* changes cursor to a hand icon */
+    transition: 0.3s ease;                   /* smooth transition */
+}
+
+.home-social-links {
+    margin-top: 30px;                   /* Adds space above this element (external spacing) */
+    text-align: center;                 /* moves the social links to the center */
+}
+
+.home-links li,
+.about-links li,
+.portfolio-links li,
+.contact-links li {
+    display: inline;                /* removes the default block style */
+    padding: 5px;                       /* Adds internal space inside each list item */
+}  
+
+.about-social-links {
+    margin-top: 30px;                   /* Adds space above this element (external spacing) */
+    margin-left: 50px;                  /* adds space to left side of the element, so its more even spacing with above paragraphs */
+    text-align: left;                 /* moves the social links to the center */
+}
+
+.portfolio-social-links {
+    margin-top: 10px;                   /* Adds space above this element (external spacing) */
+    margin-left: 50px;                  /* adds space to left side of the element, so its more even spacing with above paragraphs */
+    text-align: center;                 /* moves the social links to the center */
+
+}
+
+.contact-social-links {
+    margin-top: 10px;                   /* Adds space above this element (external spacing) */
+    text-align: left;                 /* moves the social links to the left */
+    margin-bottom: 20px;                /* adds space below this element (external spacing) */
+}
+
+/* Media Query for smaller viewports (max-width: 768px) */
+@media (max-width: 768px) {
+
+    * {
+        margin: 0;					/* remove the default margins*/
+        padding: 0;					/* remove the default padding*/
+        box-sizing: border-box;		/* Padding and border are included in the width and height*/
+    }
+    
+    .top-header {
+        width: 100%;					     /* total width of the top header container*/
+        height: 75px;					     /* reduced the height of the top-header*/
+        background-color: lightblue;	    /* top header background color*/
+    }
+    
+    .hero-image {
+        height: 175px;                  /* reduced the hero image height */
+        padding: 20px 0 0 5px;          /* changed the padding (inside spacing) of hero image*/
+    }
+        
+    .nav-menu {
+        padding-top: 10px;				/* reduced the spacing between the nav contents and top of header*/
+        text-align: right;				/* kept the text-align the same */
+    }
+    
+    .nav-menu a {
+        font-size: 15px;				    /* font size reduced in top header*/
+        padding: 0.625rem;					/* spacing reduced between the content in the top header*/
+        text-decoration: none;			    /* remove the default a tags underline*/
+    }
+    
+    h1 {
+        text-align: center;				/* center my h1 heading*/
+        font-size: 1.5rem;	            /* reduced the font sizeof h1 heading */
+        padding-top: 12rem;          /* increased spacing so the header appears below the hero image and top header */
+        padding-left: 20px;             /* reduced the left padding (inner spacing) of the heading */
+    }
+    
+    p {
+        margin-top: 10px;							/* increased top margin (outside spacing) of the paragraphs */
+        text-align: center;				    		/* center the entire paragraph */
+        font-family: 'Montserrat', sans-serif;		/* changed the paragraph font type */
+        letter-spacing: 1px;						/* reduced the spacing between the lines of text */
+        padding-left: 20px;                         /* reduced the left padding (inside spacing) of the paragraph*/ 
+    }
+
+    .content p {
+        margin-top: 5px;							/* reduced top margin (outside spacing) of the paragraphs */
+        text-align: center;				    		/* center the entire paragraph */
+        font-family: 'Montserrat', sans-serif;		/* changed the paragraph font type */
+        letter-spacing: 1px;						/* reduced the spacing between the lines of text */
+        padding-left: 20px;                         /* reduced the left padding (inside spacing) of the paragraph*/ 
+    }
+    
+    .cta {
+        margin-bottom: 15px;				/* reduced the bottom margin (outside spacing) below the call-to-action statement */
+    }
+    
+    .fa-facebook {
+        color: rgb(64 102 177);           /* kept the same */
+        font-size: 22px;                    /* kept the same */
+    }
+    
+    .fa-instagram {
+        color: rgb(234 68 144);           /* kept the same */
+        font-size: 22x;                     /* kept the same */
+    } 
+    
+    .fa-twitter {
+        color: rgb(2 158 245);              /* kept the same */
+        font-size: 22px;                      /* kept the same */
+    }
+    
+    .nav-menu-about {
+        padding-top: 5px;				/* reduced the top padding (inside spacing) of the top header*/
+        text-align: right;				/* kept the same */
+    }
+    
+    .nav-menu-about a {
+        font-size: 15px;				/* reduced the font size of the top header links */
+        padding: 0.625rem;					/* reduced padding (inside spacing) to all sides */
+        text-decoration: none;			/* remove the default a tags underline*/
+    }
+    
+    .about-heading {
+        padding-top: 15px;                          /* reduced the left padding (inside spacing) of the heading */
+        text-align: left;				            /* kept the same */
+        font-size: 1.5rem;				            /* reduced the font size of the heading */
+        font-family: 'Montserrat', sans-serif;      /* kept the same */
+    }
+    
+    .about-container {
+        display: flex;                          /* kept the same */
+        justify-content: space-between;         /* kept the same */
+        align-items: flex-start;                /* kept the same */
+        gap: 1rem;                              /* reduced the spacing between items */
+        padding: 5px;                          /* redued the padding (inside spacing) on all sides */
+    }
+      
+    .text-content p {
+        flex: 1;                                    /* kept the same */
+        text-align: left;                           /* kept the same */
+        font-family: 'Montserrat', sans-serif;      /* kept the same */
+        font-size: 1rem;                            /* kept the same */
+        line-height: 1;                             /* kept the same */
+        color: black;                             /* kept the same */
+    }
+      
+    .pie-img img {
+        width: 150px;                       /* reduced the width of the image */                       
+        height: auto;                       /* kept the same */
+        border-radius: 8px;                 /* kept the same */
+        padding-top: 10px;                  /* added top padding to image for an adaptive layout */
+    }
+    
+    .cta-about {
+        margin-top: 15px;                     /* reduced the top margin (outside spacing) of cta statement */
+        margin-bottom: 25px;                  /* reduced the bottom margin (outside spacing) of cta statement */
+        margin-left: 5px;                     /* reduced the left margin (outside spacing) of cta statement */
+        text-align: left;                     /* kept the same */
+    }
+    
+    .pfolio-heading {
+        padding-top: 15px;                          /* redued the top padding (inside spacing) of the heading */
+        text-align: left;				            /* kept the same */
+        font-size: 1.5rem;				            /* reduced the font size of heading */
+        font-family: 'Montserrat', sans-serif;      /* kept the same */
+    }
+    
+    .signature {
+      font-family: 'Dancing Script', cursive;           /* kept the same */
+      font-size: 12px;                                  /* reduced font size */                                  
+      font-style: italic;                               /* kept the same */
+      text-align: right;                                /* kept the same */
+      margin-top: 1rem;                                 /* kept the same */
+      margin-right: 8px;                                /* kept the same */
+      margin-bottom: 10px;                              /* kept the same */
+    }
+      
+    .layout {
+        display: flex;                  /* enables Flexbox layout, keeped the same */
+    }
+    
+    .left-column {
+        display: flex;                  /* kept the same */
+        align-items: flex-start;        /* kept the same */
+        gap: 15px;                      /* reduced the spacing between items */
+        padding: 20px;                  /* reduced the padding (inside spacing) on all sides */
+    }
+      
+    .hero-image2 {
+        height: 150px;               /* reduced the size of the hero image 2 */
+    }
+    
+    h2 {
+        font-size: 15px;                            /* reduced the font size */
+        font-family: 'Roboto', sans-serif;          /* kept the same */
+        text-align: center;                         /* kept the same */
+        margin-top: 15px;                          /* redued the top margin (outside spacing) of the header */
+    }
+      
+    .right-column {
+        flex: 1;                        /* kept the same */
+        display: flex;                  /* kept the same */
+        flex-direction: column;         /* kept the same */
+        gap: 1px;                       /* kept the same */
+    }
+    
+    .contact-form form {
+        display: flex;                  /* keeped the same */ 
+        flex-direction: column;         /* keeped the same */
+        gap: 5px;                       /* reduced the spacing between the items */
+    }
+      
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form select {
+        padding: 5px;                       /* reduced the padding (inside spacing) on all sides */
+        margin: 0 0 10px 10px;              /* added new margins to all sides */
+        font-size: 12px;                    /* kept the same */
+        width: 30%;                         /* kept the same */
+    }
+
+    input:hover,
+    textarea:hover,
+    select:hover {
+        border-color: #007BFF;              /* add new border color for hover */
+        background-color: #f0f8ff;          /* added new background color for hover */
+        transition: 0.3s ease;                /* smooth transition */
+    }
+
+    label[for="first-name"],                /* using an attribute selector to target form labels */
+    label[for="last-name"],
+    label[for="phone"],
+    label[for="email"],
+    label[for="password"],
+    label[for="message"],
+    label[for="drop-down"] {
+        margin: 20px 0 0 10px;                   /* added new margins to top and left side of element */
+    }
+      
+    input[type="submit"] {              
+        width: fit-content;                     /* kept the same */
+        background-color: lightgray;          /* kept the same */
+        border: black;                        /* kept the same */
+        cursor: pointer;                        /* kept the same */
+        padding: 10px 20px;                     /* kept the same */
+        margin-top: 20px;                       /* added top margin (outside spacing) for the submit button */
+    }
+
+    input[type="submit"]:hover {
+        background-color: #007BFF;             /* added new background color for hover */
+        color: white;                          /* added new text color for hover */
+        cursor: pointer;                         /* added new pointer for hover */
+        transition: 0.3s ease;                   /* smooth transition */
+    }
+    
+    .home-social-links {
+        margin-top: 15px;                   /* reduced the top margin (outside spacing) */
+        text-align: center;                 /* kept the same */
+    }
+    
+    .home-links li,
+    .about-links li,
+    .portfolio-links li,
+    .contact-links li {
+        display: inline;                    /* kept the same */
+        padding: 5px;                       /* kept the same */
+    }  
+    
+    .about-social-links {
+        margin-top: 15px;                   /* reduced top margin (outside spacing) above the social links */
+        margin-left: 25px;                  /* reduced left margin (outside spacing) of social links*/
+        text-align: left;                   /* kept the same */
+    }
+    
+    .portfolio-social-links {
+        margin-top: 10px;                  /* kept the same */
+        margin-left: 25x;                  /* reduced the left margin (outside spacing) of social links */
+        text-align: center;                /* kept the same */
+    
+    }
+    
+    .contact-social-links {
+        margin-top: 10px;                   /* kept the same */
+        text-align: left;                   /* kept the same */
+        margin-bottom: 10px;                /* reduced the bottom margin (outside spacing) of social links */
+    }
+}
+    
